@@ -12,21 +12,21 @@
         <!-- Bagian Header -->
         <header class="flex flex-col sm:flex-row items-center gap-8 border-b border-gray-200 pb-8">
             <div class="w-36 h-36 flex-shrink-0">
-                <img src="https://placehold.co/250x250/E0E7FF/4F46E5?text=Ibay" 
+                <img src="https://placehold.co/250x250/E0E7FF/4F46E5?text=Nendy" 
                      alt="Foto Profil Ibay" 
                      class="rounded-full object-cover w-full h-full border-4 border-indigo-200 shadow-lg">
             </div>
             <div class="text-center sm:text-left">
-                <h1 class="text-4xl font-bold text-gray-900">Bayu Setiaji (Ibay)</h1>
+                <h1 class="text-4xl font-bold text-gray-900">Nendy setiardi(nendy)</h1>
                 <p class="text-lg font-medium text-indigo-600 mt-2">Mahasiswa Application Software Engineering</p>
                 <div class="mt-4 flex flex-wrap justify-center sm:justify-start gap-x-6 gap-y-2 text-gray-600">
                     <a href="mailto:ibay.setiaji@example.com" class="flex items-center gap-2 hover:text-indigo-600 transition-colors">
                         <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25..."/></svg>
-                        <span>bayusetiaji.lp3i.krw24@gmail.com</span>
+                        <span>nendysetiardi.lp3i.krw24@gmail.com</span>
                     </a>
                     <a href="#" class="flex items-center gap-2 hover:text-indigo-600 transition-colors">
                         <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284..."/></svg>
-                        <span>085891602476</span>
+                        <span>085715435821</span>
                     </a>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 <section>
                     <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-indigo-200 pb-2">Tentang Saya</h2>
                     <p class="mt-4 text-gray-700 leading-relaxed">
-                        Halo, aku <span class="font-semibold text-indigo-600">Ibay</span> 👋, seorang mahasiswa Application Software Engineering di LP3I Karawang. 
+                        Halo, aku <span class="font-semibold text-indigo-600">nendy</span> 👋, seorang mahasiswa Application Software Engineering di LP3I Karawang. 
                         Dari kecil aku udah suka banget sama teknologi. Waktu SMK aku fokus di jurusan TKJ, sekarang aku makin mendalami dunia pemrograman, khususnya 
                         <span class="font-semibold">PHP</span> dan <span class="font-semibold">JavaScript</span> buat pengembangan web.  
                         Goal aku? Jadi developer yang bisa bikin aplikasi bermanfaat dan keren buat banyak orang 🚀.
