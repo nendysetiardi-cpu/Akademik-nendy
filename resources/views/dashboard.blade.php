@@ -17,7 +17,7 @@
                      class="rounded-full object-cover w-full h-full border-4 border-indigo-200 shadow-lg">
             </div>
             <div class="text-center sm:text-left">
-                <h1 class="text-4xl font-bold text-gray-900">Nendy setiardi(nendy)</h1>
+                <h1 class="text-4xl font-bold text-gray-900">Nendy setiardi😁👍(nendy)</h1>
                 <p class="text-lg font-medium text-indigo-600 mt-2">Mahasiswa Application Software Engineering</p>
                 <div class="mt-4 flex flex-wrap justify-center sm:justify-start gap-x-6 gap-y-2 text-gray-600">
                     <a href="mailto:ibay.setiaji@example.com" class="flex items-center gap-2 hover:text-indigo-600 transition-colors">
