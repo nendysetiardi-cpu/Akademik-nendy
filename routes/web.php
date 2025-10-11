@@ -5,6 +5,8 @@ use App\Http\Controllers\KelasController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\MatakuliahController;
+use App\Http\Controllers\Auth\StudentRegisterController;
+use App\Http\Controllers\EkycController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -30,6 +32,16 @@ Route::middleware('auth')->group(function () {
     Route::post('/matakuliah', [MatakuliahController::class, 'store'])->name('matakuliah.store');
     Route::get('/dosen', [DosenController::class, 'index'])->name('dosen.index');
     Route::post('/dosen', [DosenController::class, 'store'])->name('dosen.store');
+    
 });
-
+Route::get('/register-mahasiswa', [StudentRegisterController::class, 'showRegistrationForm'])
+    ->name('register.mahasiswa');
+    Route::post('/register-mahasiswa', [StudentRegisterController::class, 'register']);
+    Route::middleware(['auth'])->prefix('ekyc')->group(function () {
+        Route::get('step1', [EkycController::class, 'step1'])->name('ekyc.step1');
+        Route::post('step1', [EkycController::class, 'storeStep1'])->name('ekyc.storeStep1');
+        Route::get('step2', function () {
+        return "Step 2: Upload Dokumen (belum dibuat)";
+        })->name('ekyc.step2');
+    });
 require __DIR__.'/auth.php';
